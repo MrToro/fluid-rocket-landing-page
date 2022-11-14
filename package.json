@@ -1,0 +1,21 @@
+{
+	"name": "fluid-rocket",
+	"version": "1.0.0",
+	"description": "Creation of a landing page responsive using BEM methodology.",
+	"main": "index.js",
+	"scripts": {
+		"dev": "live-server",
+		"sass": "sass  --no-source-map --watch src/sass:src/css --style compressed"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MrToro/fluid-rocket-landing-page.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/MrToro/fluid-rocket-landing-page/issues"
+	},
+	"homepage": "https://github.com/MrToro/fluid-rocket-landing-page#readme"
+}

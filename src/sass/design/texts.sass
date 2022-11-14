@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700;900&display=swap')
+
+@mixin texts-heading
+  font-family: 'Rubik', Arial, Helvetica, sans-serif
+  font-weight: 900
+  font-size: 2.4rem
+  line-height: 2.8rem
+  color: $color-primary
+
+  @include mq-md
+    font-size: 4rem
+    line-height: 4.7rem
+
+@mixin texts-paragraph
+  font-family: 'Rubik', Arial, Helvetica, sans-serif
+  font-weight: 400
+  font-size: 1.6rem
+  line-height: 2.1rem
+  text-align: justify
+  letter-spacing: 0.1rem
+  color: $color-black
+
+  @include mq-md
+    font-size: 2.4rem
+    line-height: 3.1rem

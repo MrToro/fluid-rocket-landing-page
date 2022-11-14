@@ -1,0 +1,18 @@
+@import "design/reset"
+
+@import "design/breakpoints"
+@import "design/colors"
+@import "design/texts"
+
+h2
+  @include texts-heading
+
+p
+  @include texts-paragraph
+
+.container
+  margin: 0 auto
+  width: 90%
+
+  @include mq-md
+    width: min(80%, 1200px)
