@@ -5,9 +5,18 @@
 @import "design/colors"
 @import "design/texts"
 
+::-webkit-scrollbar
+  display: none
+
+body
+  background-image: url('/src/assets/bg-stars.svg')
+  background-size: cover
+  background-repeat: repeat-y
+
 .container
   margin: 0 auto
   width: 90%
+  min-height: 100vh
 
   @include mq-md
     width: min(80%, 1200px)
@@ -49,3 +58,13 @@ p
 
   &:hover
     color: $color-secundary
+
+.fixed-astronaut
+  position: fixed
+  top: -20%
+  left: 0
+  width: 100vw
+  height: 100vh
+  padding: 0 3rem
+  display: flex
+  justify-content: flex-end

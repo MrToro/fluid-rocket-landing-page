@@ -1,0 +1,26 @@
+.header
+  position: relative
+  overflow: hidden
+
+  &__background
+    width: 100%
+    position: absolute
+    top: 0
+    z-index: -1
+
+  &__rocket
+    width: 100%
+    position: absolute
+    bottom: -10%
+    z-index: -1
+
+  &__container
+    display: flex
+    justify-content: center
+    align-items: flex-start
+
+  &__logo
+    margin: 4rem 0
+
+    @include mq-md
+      margin: 3rem 0
