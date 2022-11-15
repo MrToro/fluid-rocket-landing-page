@@ -8,7 +8,7 @@ Creation of a landing page responsive using BEM methodology and the technologies
 
 ## Live Demo
 
-<!-- https://mrtoro.github.io/beatsby-dre-landing-page/ -->
+https://mrtoro.github.io/fluid-rocket-landing-page/
 
 ## Desktop's Preview:
 
