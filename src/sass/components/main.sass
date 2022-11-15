@@ -1,0 +1,30 @@
+.main
+
+  &__container
+    display: grid
+    align-items: center
+
+    @include mq-lg
+      grid-template-columns: 1fr 1fr
+      gap: 18rem
+    
+  &__image
+    grid-column-start: 1
+    padding: 3rem
+
+    @include mq-md
+      padding: 5rem
+
+    @include mq-lg
+      grid-column-start: 2
+      padding: 0
+  
+  &__title
+    text-align: center
+
+    @include mq-lg
+      text-align: left
+  
+  &__button
+    margin: 4rem auto
+    display: block
