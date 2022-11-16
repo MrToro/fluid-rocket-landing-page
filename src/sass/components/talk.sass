@@ -1,0 +1,32 @@
+.talk
+  margin: 2rem auto
+
+  &__container
+    display: grid
+
+    @include mq-lg
+      grid-template-columns: 1fr 1fr
+      grid-template-rows: 1fr 1fr
+    
+  &__image
+    @include mq-lg
+      grid-column: 2
+      position: relative
+      transform: scale(1.5)
+    
+    @include mq-xl
+      transform: scale(2)
+    
+    img
+      @include mq-lg
+        position: absolute
+        bottom: 0
+        
+
+  &__info
+    @include mq-lg
+      grid-column: 1 
+
+  &__button
+    margin: 4rem auto
+    display: block
